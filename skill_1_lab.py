@@ -43,7 +43,8 @@ print long_words(word_list)
 
 # Write a function that finds the smallest element in a list of integers and returns it.
 def smallest(number_list):
-    return None
+    number_list.sorted()
+    number_list[0]
 
 # Write a function that finds the largest element in a list of integers and returns it.
 def largest(number_list):
